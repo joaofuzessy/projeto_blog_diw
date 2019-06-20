@@ -10,13 +10,18 @@ var db_JoaoFuzessy_ArthurBraga= {
             "Curtidas": 2, 
             "Comentarios": 
             {
-                "Quantidade" : 1,
-                "Listagem":
+                "Quantidade" : 2,
+                "Listagem": [
                     {
                         "Nome" : "Rommel",
-                        "Texto" : "Desse post eu não gostei tanto."
+                        "Texto" : "Gostei. Vai ganhar uma nota boa!"
+                    },
+                    {
+                        "Nome" : "Janaína",
+                        "Texto" : "Vou mandar para minhas amigas!"
                     }
-            }
+                ]
+        }
         },
 
         {
@@ -30,11 +35,12 @@ var db_JoaoFuzessy_ArthurBraga= {
             "Comentarios": 
                 {
                     "Quantidade" : 1,
-                    "Listagem":
+                    "Listagem": [
                         {
                             "Nome" : "Rommel",
-                            "Texto" : "Gostei muito desse post."
+                            "Texto" : "Esse eu achei meio sem graça."
                         }
+                    ]
                 }
         },
         {
@@ -46,14 +52,10 @@ var db_JoaoFuzessy_ArthurBraga= {
             "Curtidas": 98,
             "UrlAppend": "id="+this.id, 
             "Comentarios": 
-                {
-                    "Quantidade" : 1,
-                    "Listagem":
-                        {
-                            "Nome" : "Rommel",
-                            "Texto" : "Gostei muito desse post."
-                        }
-                }
+            {
+                "Quantidade" : 0,
+                "Listagem": []
+        }
         },
         {
             "id": 3,
@@ -87,14 +89,15 @@ var db_JoaoFuzessy_ArthurBraga= {
             "Curtidas": 43,
             "UrlAppend": "id="+this.id, 
             "Comentarios": 
-                {
-                    "Quantidade" : 1,
-                    "Listagem":
-                        {
-                            "Nome" : "Rommel",
-                            "Texto" : "Gostei muito desse post."
-                        }
-                }
+            {
+                "Quantidade" : 1,
+                "Listagem": [
+                    {
+                        "Nome" : "Marcelo",
+                        "Texto" : "Que post interessante!"
+                    }
+                ]
+            }
         }
         
     ]
