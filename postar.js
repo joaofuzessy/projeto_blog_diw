@@ -23,7 +23,7 @@ function PostarPost(){
     var post = 
     {
             "id": novoId,
-            "Data": "",
+            "Data": $('#colFormData').val(),
             "Titulo": $('#colFormTitulo').val(),
             "Texto": $('#colFormTextoPost').val(),
             "Imagem": $('#colFormImagem').val(),
