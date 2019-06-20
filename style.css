@@ -1,0 +1,127 @@
+html{
+    position:relative; 
+    min-height: 100%;
+  }
+  
+  html,body{
+    margin:0;
+    padding:0;
+  }
+ 
+
+
+.post-thumb{
+ 
+}
+
+.semConteudo{
+    margin-top: 60px;
+}
+
+
+.section-title{
+    margin: 40px 0 35px;
+}
+
+
+.posts-container{
+   height: 100%;
+   position: relative;
+   padding-bottom: 60px;
+}
+
+.card{
+    border: none;
+}
+
+.card-title{
+    height: 50px;
+}
+
+.post-meta{
+    font-size: 11px; 
+    color: grey;
+}
+
+.post-meta > span{
+    padding-right: 10px;
+}
+
+.posts-row{
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+/*Página de postagem*/
+.row-post-edit{
+    margin-top: 60px;
+}
+
+.row-post-edit .row{
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 250px !important;
+}
+
+
+/*Pagina de post*/
+
+.post-single-container .hero{ 
+    width: 100%;
+    height: 60vh;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+
+.post-single-container .post-title{
+margin: 60px 0 15px;
+}
+
+.post-single-container .post-text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.post-single-container .post-footer{
+    margin-bottom: 40px;
+}
+
+.comment-form{
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+.comment-form .row{
+    margin-bottom: 20px;
+}
+
+.comments-list{
+    
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.comment{
+    margin-bottom: 40px;
+}
+
+.avatar{
+    font-size: 48px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
