@@ -37,7 +37,7 @@ function PostarPost(){
         };
     
 
-        Lista.unshift(post);
+        Lista.push(post);
         localStorage.setItem("db", JSON.stringify(db));
         alert("Conteúdo postado!");
         return true;
